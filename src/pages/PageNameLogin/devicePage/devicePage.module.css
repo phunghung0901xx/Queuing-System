@@ -1,0 +1,55 @@
+.devicePage {
+  position: relative;
+  left: 202px;
+  width: 1824px;
+  height: 812px;
+  opacity: 0.1;
+  background: #B1B1B1;
+  display: flex;
+  z-index: 1;
+}
+
+.topbar {
+  position: relative;
+  width: 1825px;
+  height: 88px;
+  left: 0px;
+  top: 0px;
+  z-index: 2;
+}
+
+.device-text {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #7E7D88;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  z-index: 10;
+  position: absolute;
+  top: -794px;
+  left: 218px;
+}
+
+.logo-next {
+  position: absolute;
+  top: -784px;
+  left: 303px;
+}
+
+.device-index {
+  position: absolute;
+  top: -794px;
+  left: 323px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+  /* Orange/$-Orange-500 */
+  color: #FF7506;
+}

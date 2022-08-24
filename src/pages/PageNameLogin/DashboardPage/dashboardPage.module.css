@@ -1,0 +1,101 @@
+.wrap {
+  position: relative;
+  left: 202px;
+  width: 1824px;
+  height: 812px;
+  opacity: 0.1;
+  background: #B1B1B1;
+}
+
+.header-text {
+  position: absolute;
+  top: 25px;
+  left: 223px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+  /* Orange/$-Orange-400 */
+  color: #FF9138;
+}
+
+.chart-text {
+  position: absolute;
+  top: 102px;
+  left: 223px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #FF7506;
+}
+
+.number-block {
+  position: absolute;
+  width: 186px;
+  height: 120px;
+  left: 205px;
+  top: 147px;
+}
+
+.number-block-used {
+  position: absolute;
+  width: 186px;
+  height: 120px;
+  left: 402px;
+  top: 146px;
+}
+
+.number-block-waiting {
+  position: absolute;
+  width: 186px;
+  height: 120px;
+  left: 600px;
+  top: 145px;
+}
+
+.number-block-omitted {
+  position: absolute;
+  width: 186px;
+  height: 120px;
+  left: 803px;
+  top: 144px;
+}
+
+.chart-block {
+  position: absolute;
+  width: 791px;
+  height: 484px;
+  left: 203px;
+  top: 284px;
+}
+
+.right-bar {
+  position: absolute;
+  width: 200px;
+  height: 810px;
+  right: 0px;
+  top: 0px;
+  /* White */
+  background: #FFFFFF;
+  /* Dropdown */
+  box-shadow: 0px 4px 6px rgba(219, 219, 219, 0.5);
+  border-radius: 16px 0px 0px 16px;
+}
+
+.logo {
+  position: absolute;
+  top: -779px;
+  left: 1479px;
+}
+
+.menu-bar {
+  position: absolute;
+  width: 401px;
+  height: 810px;
+  left: 1039px;
+  top: 0px;
+}
