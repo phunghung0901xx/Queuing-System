@@ -7,6 +7,8 @@ import Navbar from './pages/PageNameLogin/navbar/Navbar'
 import PageNameLogin from './pages/PageNameLogin/PageNameLogin';
 import DashboardPage from './pages/PageNameLogin/DashboardPage/dashboardPage';
 import DevicePage from './pages/PageNameLogin/devicePage/devicePage'
+import AddDevicePage from './pages/PageNameLogin/devicePage/AddDevicePage/AddDevicePage'
+import DetailPage from './pages/PageNameLogin/devicePage/DetailPage/DetailPage'
 function App() {
   const [toggle,setToggle] = useState(false)
   
@@ -23,6 +25,8 @@ function App() {
        <Route path="/PageNameLogin" element={<PageNameLogin/>} />
        <Route path="/Dash" element={ <DashboardPage />} />
        <Route path="/Device" element={ <DevicePage />} />
+       <Route path="/Device/ADD" element={ <AddDevicePage />} />
+       <Route path="/Device/Detail" element={ <DetailPage />} />
       </Routes>
 
     </div>

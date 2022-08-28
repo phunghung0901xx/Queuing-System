@@ -10,7 +10,7 @@ export const userSlice = createSlice({
         repeat:"123456789",
         email: "adminSSO1@domain.com",
         role: "Kế toán",
-        avatarUrl: "file:///C:/Users/HUNG/Downloads/unsplash_Fyl8sMC2j2Q.jpg"
+        avatarUrl: "../img/unsplash_Fyl8sMC2j2Q.png"
     },
     reducers : {
         update: (state, action) => {
