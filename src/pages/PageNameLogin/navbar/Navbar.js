@@ -53,7 +53,8 @@ function Navbar() {
 <span className={cx('monitor-name')} >Thiết bị</span>
      </div> 
      </Link>
-     <div className={cx('service')}>
+
+     <Link to="/Service" className={cx('service')}>
      <svg className={cx('service-logo')}  xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
 <circle cx="4.57986" cy="14.4016" r="0.708276" fill="#A9A9B0"/>
 <circle cx="6.9407" cy="14.4016" r="0.708276" fill="#A9A9B0"/>
@@ -70,7 +71,7 @@ function Navbar() {
 </clipPath>
 </defs>
 </svg> 
-</div>
+</Link>
 <span className={cx('service-name')} >Dịch vụ</span>
 <div>
 <svg className={cx('number-logo')} xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">

@@ -9,6 +9,11 @@ import DashboardPage from './pages/PageNameLogin/DashboardPage/dashboardPage';
 import DevicePage from './pages/PageNameLogin/devicePage/devicePage'
 import AddDevicePage from './pages/PageNameLogin/devicePage/AddDevicePage/AddDevicePage'
 import DetailPage from './pages/PageNameLogin/devicePage/DetailPage/DetailPage'
+import UpdatePage from './pages/PageNameLogin/devicePage/UpdatePage/UpdatePage';
+import ServicePage from './pages/PageNameLogin/ServicePage/ServicePage'
+import AddPage from './pages/PageNameLogin/ServicePage/AddPage/AddPage';
+import DetailServicePage from './pages/PageNameLogin/ServicePage/DetailServicePage/DetailServicePage'
+import LogicPage from './pages/PageNameLogin/ServicePage/LogicPage/LogicPage'
 function App() {
   const [toggle,setToggle] = useState(false)
   
@@ -27,6 +32,11 @@ function App() {
        <Route path="/Device" element={ <DevicePage />} />
        <Route path="/Device/ADD" element={ <AddDevicePage />} />
        <Route path="/Device/Detail" element={ <DetailPage />} />
+       <Route path="/Device/Update" element={ <UpdatePage />} />
+       <Route path="/Service" element={ <ServicePage />} />
+       <Route path="/Service/AddPage" element={ <AddPage />} />
+       <Route path="/Service/DetailPage" element={ <DetailServicePage />} />
+       <Route path="/Service/UpdateService" element={ < LogicPage/>} />
       </Routes>
 
     </div>
