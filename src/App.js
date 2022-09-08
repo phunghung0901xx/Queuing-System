@@ -14,6 +14,9 @@ import ServicePage from './pages/PageNameLogin/ServicePage/ServicePage'
 import AddPage from './pages/PageNameLogin/ServicePage/AddPage/AddPage';
 import DetailServicePage from './pages/PageNameLogin/ServicePage/DetailServicePage/DetailServicePage'
 import LogicPage from './pages/PageNameLogin/ServicePage/LogicPage/LogicPage'
+import NumberPage from './pages/PageNameLogin/NumberPage/NumberPage'
+import ProgressionPage from './pages/PageNameLogin/NumberPage/ProgressionPage/ProgressionPage'
+import NotifyPage from './pages/PageNameLogin/NotifyPage/NotifyPage'
 function App() {
   const [toggle,setToggle] = useState(false)
   
@@ -37,6 +40,9 @@ function App() {
        <Route path="/Service/AddPage" element={ <AddPage />} />
        <Route path="/Service/DetailPage" element={ <DetailServicePage />} />
        <Route path="/Service/UpdateService" element={ < LogicPage/>} />
+       <Route path="/Number" element={ < NumberPage/>} />
+       <Route path="/Number/progression" element={ < ProgressionPage/>} />
+       <Route path="/Notify" element={ < NotifyPage/>} />
       </Routes>
 
     </div>

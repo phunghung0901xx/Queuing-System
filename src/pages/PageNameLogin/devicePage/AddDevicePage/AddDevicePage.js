@@ -77,10 +77,10 @@ export default function AddDevicePage() {
 </div>
 <div className={cx('footer')}>
 <button className={cx('cancle')}>
-Hủy
+Hủy bỏ
 </button>
 <Link to="/Device" className={cx('add-button')}>
-Thêm thiết bị
+Cập nhật
 </Link>
 
 </div>
